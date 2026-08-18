@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Akash Sir Teaching Classes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🎓 Online Teaching</h1>
+        <p>Learn Anytime, Anywhere</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Classes</a>
+        <a href="#">Notes</a>
+        <a href="#login">Login</a>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <h2>Welcome to Online Teaching</h2>
+
+        <p>
+            Join classes, learn courses and access study materials.
+        </p>
+
+        <button onclick="showLogin()">
+            Get Started
+        </button>
+
+    </section>
+
+    <!-- Login -->
+    <section id="login" class="login-section">
+
+        <div class="login-box">
+
+            <h2>🔐 Student Login</h2>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter Username"
+            >
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+            >
+
+            <button onclick="login()">
+                Login
+            </button>
+
+            <p>
+                Don't have an account?
+                <a href="#register">Register</a>
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Register -->
+    <section id="register" class="register-section">
+
+        <div class="login-box">
+
+            <h2>📝 Create Account</h2>
+
+            <input
+                type="text"
+                id="newUsername"
+                placeholder="Create Username"
+            >
+
+            <input
+                type="password"
+                id="newPassword"
+                placeholder="Create Password"
+            >
+
+            <button onclick="register()">
+                Register
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Courses -->
+    <section class="courses">
+
+        <h2>Our Courses</h2>
+
+        <div class="course">
+            <h3>💻 Computer Science</h3>
+            <p>Learn computer fundamentals.</p>
+        </div>
+
+        <div class="course">
+            <h3>☕ Java Programming</h3>
+            <p>Learn Java from basic to advanced.</p>
+        </div>
+
+        <div class="course">
+            <h3>🌐 Web Development</h3>
+            <p>Learn HTML, CSS and JavaScript.</p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Akash Teaching</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

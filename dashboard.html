@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎓 Online Teaching</h1>
+        <p>Student Dashboard</p>
+    </header>
+
+    <nav>
+
+    <a href="dashboard.html">Dashboard</a>
+    <a href="courses.html">Courses</a>
+    <a href="notes.html">Notes</a>
+    <a href="assignments.html">Assignments</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="teacher.html">👨‍🏫 Teacher</a>
+    <a href="#" onclick="logout()">Logout</a>
+
+    </nav>
+
+    <main class="dashboard">
+
+        <h2 id="welcome">Welcome Student 👋</h2>
+
+        <p class="dashboard-text">
+            Manage your classes, courses and study materials from here.
+        </p>
+
+        <div class="dashboard-cards">
+
+            <div class="dashboard-card">
+                <h3>📚</h3>
+                <h3>My Courses</h3>
+                <p>View your enrolled courses.</p>
+                <button>Open</button>
+            </div>
+
+            <div class="dashboard-card">
+                <h3>📄</h3>
+                <h3>Study Notes</h3>
+                <p>Access notes and PDF materials.</p>
+                <button>Open</button>
+            </div>
+
+            <div class="dashboard-card">
+                <h3>📝</h3>
+                <h3>Assignments</h3>
+                <p>Check your assignments.</p>
+                <button>Open</button>
+            </div>
+
+            <div class="dashboard-card">
+                <h3>❓</h3>
+                <h3>Quiz</h3>
+                <p>Take online quizzes.</p>
+                <button>Start Quiz</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Akash Sir Teaching Classes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>dashboard
